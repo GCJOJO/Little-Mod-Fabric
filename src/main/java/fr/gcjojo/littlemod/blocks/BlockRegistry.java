@@ -19,23 +19,30 @@ public class BlockRegistry {
 
     // Blocks
     public static final Block OrdiniteOre = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f));
-
+    public static final Block OrdiniteBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f));
 
     // Block Items
     public static final Item OrdiniteOreItem = new BlockItem(OrdiniteOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
+    public static final Item OrdiniteBlockItem = new BlockItem(OrdiniteBlock, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
 
 
     public static void RegisterBlocks()
     {
+        // Registry.register(Registry.BLOCK, new Identifier(
+
         Registry.register(Registry.BLOCK, new Identifier("lm", "fabric_block"), FABRIC_BLOCK);
 
         Registry.register(Registry.BLOCK, new Identifier("lm","ordinite_ore"), OrdiniteOre);
+        Registry.register(Registry.BLOCK, new Identifier("lm","ordinite_block"), OrdiniteBlock);
     }
     public static void RegisterItemBlocks()
     {
+        // Registry.register(Registry.ITEM, new Identifier(
+
         Registry.register(Registry.ITEM, new Identifier("lm", "fabric_block"), FABRIC_BLOCKItem);
 
         Registry.register(Registry.ITEM, new Identifier("lm", "ordinite_ore"), OrdiniteOreItem);
+        Registry.register(Registry.ITEM, new Identifier("lm", "ordinite_block"), OrdiniteBlockItem);
     }
 
     public static Item GetItemFromBlock(Block b)

@@ -1,8 +1,10 @@
 package fr.gcjojo.littlemod;
 
+import fr.gcjojo.littlemod.biomes.BiomeRegistry;
 import fr.gcjojo.littlemod.blocks.BlockRegistry;
 import fr.gcjojo.littlemod.items.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.world.biome.Biome;
 /*
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -30,6 +32,7 @@ public class Main implements ModInitializer{
         ItemRegistry.RegisterItems();
         BlockRegistry.RegisterBlocks();
         BlockRegistry.RegisterItemBlocks();
+        BiomeRegistry.RegisterBiomes();
 
         System.out.println("Little Fabric mod initialized !");
     }
