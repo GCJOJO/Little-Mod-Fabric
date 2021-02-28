@@ -1,0 +1,9 @@
+{
+  "item.lm.fabric_item" : "Test Item",
+  "block.lm.fabric_block" : "Test Block",
+
+  "item.lm.ordinite": "Ordinite",
+  "block.lm.ordinite_ore" : "Minerais d'Ordinite",
+  "itemGroup.lm.items" : "Items Little Mod",
+  "itemGroup.lm.blocks" : "Blocs Little Mod"
+}

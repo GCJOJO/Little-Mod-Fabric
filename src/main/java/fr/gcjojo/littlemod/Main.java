@@ -1,6 +1,6 @@
 package fr.gcjojo.littlemod;
 
-import fr.gcjojo.littlemod.blocks.BlockRegisty;
+import fr.gcjojo.littlemod.blocks.BlockRegistry;
 import fr.gcjojo.littlemod.items.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 /*
@@ -28,8 +28,8 @@ public class Main implements ModInitializer{
 
 
         ItemRegistry.RegisterItems();
-        BlockRegisty.RegisterBlocks();
-        BlockRegisty.RegisterItemBlocks();
+        BlockRegistry.RegisterBlocks();
+        BlockRegistry.RegisterItemBlocks();
 
         System.out.println("Little Fabric mod initialized !");
     }
