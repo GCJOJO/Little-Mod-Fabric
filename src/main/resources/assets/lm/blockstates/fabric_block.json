@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "lm:block/fabric_block" }
+  }
+}
