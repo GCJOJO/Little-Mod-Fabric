@@ -1,6 +1,7 @@
 # Little Mod (Fabric) by G.C*JOJO
 
 [![Java CI with Gradle](https://github.com/GCJOJO/Little-Mod-Fabric/actions/workflows/gradle.yml/badge.svg)](https://github.com/GCJOJO/Little-Mod-Fabric/actions/workflows/gradle.yml)
+[![build](https://github.com/GCJOJO/Little-Mod-Fabric/actions/workflows/build.yml/badge.svg)](https://github.com/GCJOJO/Little-Mod-Fabric/actions/workflows/build.yml)
 
 ## Setup
 
