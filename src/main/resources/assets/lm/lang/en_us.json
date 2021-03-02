@@ -4,6 +4,10 @@
 
   "item.lm.ordinite": "Ordinite",
   "block.lm.ordinite_ore" : "Ordinite Ore",
+  "block.lm.ordinite_block" : "Ordinite Block",
+  "block.lm.lingonium_ore" : "Lingonium Ore",
+  "block.lm.lingonium_block" : "Lingonium Block",
+
   "itemGroup.lm.items" : "Little Mod Items",
   "itemGroup.lm.blocks" : "Little Mod Blocks"
 }

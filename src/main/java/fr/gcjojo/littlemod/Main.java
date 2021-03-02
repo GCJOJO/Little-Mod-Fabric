@@ -4,7 +4,11 @@ import fr.gcjojo.littlemod.biomes.BiomeRegistry;
 import fr.gcjojo.littlemod.blocks.BlockRegistry;
 import fr.gcjojo.littlemod.items.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
+import net.kyrptonaught.customportalapi.CustomPortalApiRegistry;
+import net.minecraft.util.Identifier;
 import net.minecraft.world.biome.Biome;
+
+import java.rmi.registry.Registry;
 /*
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -33,8 +37,17 @@ public class Main implements ModInitializer{
         BlockRegistry.RegisterBlocks();
         BlockRegistry.RegisterItemBlocks();
         BiomeRegistry.RegisterBiomes();
+        BiomeRegistry.RegisterGeneration();
+
+        Register();
 
         System.out.println("Little Fabric mod initialized !");
+    }
+
+    public void Register()
+    {
+        //  CustomPortalApiRegistry.addPortal(Block frameBlock, Identifier dimID, int r, int g, int b)
+        CustomPortalApiRegistry.addPortal(BlockRegistry.OrdiniteBlock, new Identifier("lm", "ordinite"), 0, 148, 255);
     }
 
 }
