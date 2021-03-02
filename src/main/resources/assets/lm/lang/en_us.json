@@ -3,10 +3,18 @@
   "block.lm.fabric_block" : "Test Block",
 
   "item.lm.ordinite": "Ordinite",
+  "item.lm.lingonium" : "Lingonium",
+  "item.lm.Omgieum" : "Omgieum",
+
   "block.lm.ordinite_ore" : "Ordinite Ore",
   "block.lm.ordinite_block" : "Ordinite Block",
   "block.lm.lingonium_ore" : "Lingonium Ore",
+  "block.lm.lingonium_ore" : "Nether Lingonium Ore",
   "block.lm.lingonium_block" : "Lingonium Block",
+  "block.lm.omgieum_ore" : "Omgieum Ore",
+  "block.lm.nether_omgieum_ore" : "Nether Omgieum Ore",
+  "block.lm.end_omgieum_ore" : "End Omgieum Ore",
+  "block.lm.omgieum_block" : "Omgieum Block",
 
   "itemGroup.lm.items" : "Little Mod Items",
   "itemGroup.lm.blocks" : "Little Mod Blocks"

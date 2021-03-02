@@ -23,6 +23,12 @@ public class BlockRegistry {
 
     public static final Block LingoniumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
     public static final Block LingoniumBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+    public static final Block NetherLingoniumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+
+    public static final Block OmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+    public static final Block OmgieumBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+    public static final Block NetherOmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+    public static final Block EndOmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
 
     // Block Items
     public static final Item OrdiniteOreItem = new BlockItem(OrdiniteOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
@@ -30,7 +36,12 @@ public class BlockRegistry {
 
     public static final Item LingoniumOreItem = new BlockItem(LingoniumOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
     public static final Item LingoniumBlockItem = new BlockItem(LingoniumBlock, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
+    public static final Item NetherLingoniumOreItem = new BlockItem(NetherLingoniumOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
 
+    public static final Item OmgieumOreItem = new BlockItem(OmgieumOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
+    public static final Item OmgieumBlockItem = new BlockItem(OmgieumBlock, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
+    public static final Item NetherOmgieumOreItem = new BlockItem(NetherOmgieumOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
+    public static final Item EndOmgieumOreItem = new BlockItem(EndOmgieumOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
 
     public static void RegisterBlocks()
     {
@@ -42,7 +53,13 @@ public class BlockRegistry {
         Registry.register(Registry.BLOCK, new Identifier("lm","ordinite_block"), OrdiniteBlock);
 
         Registry.register(Registry.BLOCK, new Identifier("lm", "lingonium_ore"), LingoniumOre);
+        Registry.register(Registry.BLOCK, new Identifier("lm", "nether_lingonium_ore"), NetherLingoniumOre);
         Registry.register(Registry.BLOCK, new Identifier("lm", "lingonium_block"), LingoniumBlock);
+
+        Registry.register(Registry.BLOCK, new Identifier("lm", "omgieum_ore"), OmgieumOre);
+        Registry.register(Registry.BLOCK, new Identifier("lm", "nether_omgieum_ore"), NetherOmgieumOre);
+        Registry.register(Registry.BLOCK, new Identifier("lm", "end_omgieum_ore"), EndOmgieumOre);
+        Registry.register(Registry.BLOCK, new Identifier("lm", "omgieum_block"), OmgieumBlock);
     }
 
     public static void RegisterItemBlocks()
@@ -55,7 +72,13 @@ public class BlockRegistry {
         Registry.register(Registry.ITEM, new Identifier("lm", "ordinite_block"), OrdiniteBlockItem);
 
         Registry.register(Registry.ITEM, new Identifier("lm", "lingonium_ore"), LingoniumOreItem);
+        Registry.register(Registry.ITEM, new Identifier("lm", "nether_lingonium_ore"), NetherLingoniumOreItem);
         Registry.register(Registry.ITEM, new Identifier("lm", "lingonium_block"), LingoniumBlockItem);
+
+        Registry.register(Registry.ITEM, new Identifier("lm", "omgieum_ore"), OmgieumOreItem);
+        Registry.register(Registry.ITEM, new Identifier("lm", "nether_omgieum_ore"), NetherOmgieumOreItem);
+        Registry.register(Registry.ITEM, new Identifier("lm", "end_omgieum_ore"), EndOmgieumOreItem);
+        Registry.register(Registry.ITEM, new Identifier("lm", "omgieum_block"), OmgieumBlockItem);
     }
 
     public static Item GetItemFromBlock(Block b)

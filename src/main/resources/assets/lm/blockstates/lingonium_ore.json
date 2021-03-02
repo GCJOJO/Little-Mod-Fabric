@@ -1,6 +1,5 @@
 {
   "variants": {
-    "": { "model": "lm:block/lingonium_ore" },
-    "nether" : {"model" :  "lm:block/nether_lingonium_ore"}
+    "": { "model": "lm:block/lingonium_ore" }
   }
 }
