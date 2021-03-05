@@ -1,0 +1,15 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": [
+    "minecraft:overworld"
+  ],
+  "to": "lm:ordinite",
+  "form": {
+    "type": "imm_ptl:convert_conventional_portal",
+    "portal_block": "customportals:customportalblock"
+  },
+  "trigger": {
+    "type": "imm_ptl:throw_item", 
+	"item" : "lm:ordinite"
+  }
+}

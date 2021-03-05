@@ -2,20 +2,33 @@
   "item.lm.fabric_item" : "Test Item",
   "block.lm.fabric_block" : "Test Block",
 
-  "item.lm.ordinite": "Ordinite",
-  "item.lm.lingonium" : "Lingonium",
-  "item.lm.Omgieum" : "Omgieum",
+  "item.lm.ordinite": "§bOrdinite§f",
+  "item.lm.lingonium" : "§6Lingonium§f",
+  "item.lm.omgieum" : "§bO§5m§4g§6i§ee§au§7m§f",
 
-  "block.lm.ordinite_ore" : "Ordinite Ore",
-  "block.lm.ordinite_block" : "Ordinite Block",
-  "block.lm.lingonium_ore" : "Lingonium Ore",
-  "block.lm.lingonium_ore" : "Nether Lingonium Ore",
-  "block.lm.lingonium_block" : "Lingonium Block",
-  "block.lm.omgieum_ore" : "Omgieum Ore",
-  "block.lm.nether_omgieum_ore" : "Nether Omgieum Ore",
-  "block.lm.end_omgieum_ore" : "End Omgieum Ore",
-  "block.lm.omgieum_block" : "Omgieum Block",
+  "item.lm.ordinite_sword": "§bOrdinite§f Sword",
+  "item.lm.ordinite_pickaxe": "§bOrdinite§f Pickaxe",
+  "item.lm.ordinite_axe": "§bOrdinite§f Axe",
+  "item.lm.ordinite_shovel": "§bOrdinite§f Shovel",
+  "item.lm.ordinite_hoe": "§bOrdinite§f Hoe",
+
+  "block.lm.ordinite_ore" : "§bOrdinite§f Ore",
+  "block.lm.ordinite_block" : "§bOrdinite§f Block",
+  "block.lm.lingonium_ore" : "§6Lingonium§f Ore",
+  "block.lm.lingonium_ore" : "Nether §6Lingonium§f Ore",
+  "block.lm.lingonium_block" : "§6Lingonium§f Block",
+  "block.lm.omgieum_ore" : "§bO§5m§4g§6i§ee§au§7m§f Ore",
+  "block.lm.nether_omgieum_ore" : "Nether §bO§5m§4g§6i§ee§au§7m§f Ore",
+  "block.lm.end_omgieum_ore" : "End §bO§5m§4g§6i§ee§au§7m§f Ore",
+  "block.lm.omgieum_block" : "§bO§5m§4g§6i§ee§au§7m§f Block",
+
+  "item.lm.ordinite_helmet" : "§bOrdinite§f Helmet",
+  "item.lm.ordinite_chestplate" : "§bOrdinite§f Chestplate",
+  "item.lm.ordinite_leggings" : "§bOrdinite§f Leggings",
+  "item.lm.ordinite_boots" : "§bOrdinite§f Boots",
 
   "itemGroup.lm.items" : "Little Mod Items",
-  "itemGroup.lm.blocks" : "Little Mod Blocks"
+  "itemGroup.lm.blocks" : "Little Mod Blocks",
+  "itemGroup.lm.tools" : "Little Mod Tools",
+  "itemGroup.lm.armors" : "Little Mod Armors"
 }

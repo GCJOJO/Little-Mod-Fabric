@@ -3,6 +3,7 @@ package fr.gcjojo.littlemod.blocks;
 import fr.gcjojo.littlemod.creative_tabs.CreativeTabs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -14,21 +15,21 @@ import net.minecraft.util.registry.Registry;
 public class BlockRegistry {
 
     // Test Block/Items
-    public static final Block FABRIC_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f));
+    public static final Block FABRIC_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).breakByTool(FabricToolTags.PICKAXES, 5));
     public static final Item FABRIC_BLOCKItem = new BlockItem(FABRIC_BLOCK, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));
 
     // Blocks
-    public static final Block OrdiniteOre = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f));
-    public static final Block OrdiniteBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f));
+    public static final Block OrdiniteOre = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.PICKAXES, 3));
+    public static final Block OrdiniteBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).breakByTool(FabricToolTags.PICKAXES, 3));
 
-    public static final Block LingoniumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
-    public static final Block LingoniumBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
-    public static final Block NetherLingoniumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+    public static final Block LingoniumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 5));
+    public static final Block LingoniumBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 5));
+    public static final Block NetherLingoniumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 5));
 
-    public static final Block OmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
-    public static final Block OmgieumBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
-    public static final Block NetherOmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
-    public static final Block EndOmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f));
+    public static final Block OmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 7));
+    public static final Block OmgieumBlock = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 7));
+    public static final Block NetherOmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 7));
+    public static final Block EndOmgieumOre = new Block(FabricBlockSettings.of(Material.STONE).strength(8.0f).breakByTool(FabricToolTags.PICKAXES, 7));
 
     // Block Items
     public static final Item OrdiniteOreItem = new BlockItem(OrdiniteOre, new FabricItemSettings().group(CreativeTabs.LittleModBlocks));

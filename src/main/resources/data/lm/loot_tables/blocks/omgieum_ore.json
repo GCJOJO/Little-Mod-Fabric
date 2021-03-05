@@ -2,11 +2,11 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 5,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lm:ordinite"
+          "name": "lm:omgieum"
         }
       ],
       "conditions": [

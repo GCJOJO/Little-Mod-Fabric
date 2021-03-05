@@ -15,4 +15,12 @@ public class CreativeTabs {
                 new Identifier("lm", "blocks"),
                 () -> new ItemStack(BlockRegistry.OrdiniteOreItem)
         );
+        public  static final ItemGroup LittleModTools = FabricItemGroupBuilder.build(
+                new Identifier("lm", "tools"),
+                () -> new ItemStack(ItemRegistry.OrdiniteSword)
+        );
+        public  static final ItemGroup LittleModArmor = FabricItemGroupBuilder.build(
+                new Identifier("lm", "armors"),
+                () -> new ItemStack(ItemRegistry.OrdiniteChestplate)
+        );
 }

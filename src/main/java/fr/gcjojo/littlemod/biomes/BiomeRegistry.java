@@ -1,11 +1,13 @@
 package fr.gcjojo.littlemod.biomes;
 
+import com.mojang.serialization.Codec;
 import fr.gcjojo.littlemod.blocks.BlockRegistry;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.biome.v1.OverworldBiomes;
 import net.fabricmc.fabric.api.biome.v1.OverworldClimate;
 import net.minecraft.block.Blocks;
+import net.minecraft.sound.MusicSound;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
@@ -99,12 +101,12 @@ public class BiomeRegistry {
             .spreadHorizontally()
             .repeat(15); // number of veins per chunk
 
-    public static void RegisterGeneration()
+    public static void RegisterFeatureGeneration()
     {
-        RegistryKey<ConfiguredFeature<?, ?>> oreWoolOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
+        RegistryKey<ConfiguredFeature<?, ?>> oreOrdiniteOverworld = RegistryKey.of(Registry.CONFIGURED_FEATURE_WORLDGEN,
                 new Identifier("lm", "ore_ordinite_overworld"));
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreWoolOverworld.getValue(), ORE_ORDINITE_OVERWORLD);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, oreWoolOverworld);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreOrdiniteOverworld.getValue(), ORE_ORDINITE_OVERWORLD);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, oreOrdiniteOverworld);
     }
 
 }

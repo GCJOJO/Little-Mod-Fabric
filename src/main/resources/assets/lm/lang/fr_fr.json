@@ -2,20 +2,33 @@
   "item.lm.fabric_item" : "Test Item",
   "block.lm.fabric_block" : "Test Block",
 
-  "item.lm.ordinite": "Ordinite",
-  "item.lm.lingonium" : "Lingonium",
-  "item.lm.Omgieum" : "Omgieum",
+  "item.lm.ordinite": "§bOrdinite§f",
+  "item.lm.lingonium" : "§6Lingonium§f",
+  "item.lm.omgieum" : "§bO§5m§4g§6i§ee§au§7m§f",
 
-  "block.lm.ordinite_ore" : "Minerais d'Ordinite",
-  "block.lm.ordinite_block" : "Bloc d'Ordinite",
-  "block.lm.lingonium_ore" : "Minerais de Lingonium",
-  "block.lm.nether_lingonium_ore" : "Minerais de Lingonium du Nether",
-  "block.lm.lingonium_block" : "Bloc de Lingonium",
-  "block.lm.omgieum_ore" : "Minerais d'Omgieum",
-  "block.lm.nether_omgieum_ore" : "Minerais d'Omgieum du Nether",
-  "block.lm.end_omgieum_ore" : "Minerais d'Omgieum de l'End",
-  "block.lm.omgieum_block" : "Bloc d'Omgieum",
+  "item.lm.ordinite_sword": "Épée en §bOrdinite§f",
+  "item.lm.ordinite_pickaxe": "Pioche en §bOrdinite§f",
+  "item.lm.ordinite_axe": "Hache en §bOrdinite§f",
+  "item.lm.ordinite_shovel": "Pelle en §bOrdinite§f",
+  "item.lm.ordinite_hoe": "Houe en §bOrdinite§f",
+
+  "block.lm.ordinite_ore" : "Minerais d'§bOrdinite§f",
+  "block.lm.ordinite_block" : "Bloc d'§bOrdinite§f",
+  "block.lm.lingonium_ore" : "Minerais de §6Lingonium§f",
+  "block.lm.nether_lingonium_ore" : "Minerais de §6Lingonium§f du Nether",
+  "block.lm.lingonium_block" : "Bloc de §6Lingonium§f",
+  "block.lm.omgieum_ore" : "Minerais d'§bO§5m§4g§6i§ee§au§7m§f",
+  "block.lm.nether_omgieum_ore" : "Minerais d'§bO§5m§4g§6i§ee§au§7m§f du Nether",
+  "block.lm.end_omgieum_ore" : "Minerais d'§bO§5m§4g§6i§ee§au§7m§f de l'End",
+  "block.lm.omgieum_block" : "Bloc d'§bO§5m§4g§6i§ee§au§7m§f",
+
+  "item.lm.ordinite_helmet" : "§fCasque en §bOrdinite§f",
+  "item.lm.ordinite_chestplate" : "§fPlastron en §bOrdinite§f",
+  "item.lm.ordinite_leggings" : "§fJambières en §bOrdinite§f",
+  "item.lm.ordinite_boots" : "§fBottes en §bOrdinite§f",
 
   "itemGroup.lm.items" : "Items Little Mod",
-  "itemGroup.lm.blocks" : "Blocs Little Mod"
+  "itemGroup.lm.blocks" : "Blocs Little Mod",
+  "itemGroup.lm.tools" : "Outils Little Mod",
+  "itemGroup.lm.armors" : "Armures Little Mod"
 }

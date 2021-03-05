@@ -6,9 +6,6 @@ import fr.gcjojo.littlemod.items.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.kyrptonaught.customportalapi.CustomPortalApiRegistry;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.biome.Biome;
-
-import java.rmi.registry.Registry;
 /*
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -22,6 +19,9 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
 */
 
+// TODO : Add Dimension for each ore that let you obtain the ore++ than the current one
+// TODO : Add bosses in each dimensions
+
 public class Main implements ModInitializer{
 
     public static final String MOD_ID = "lm";
@@ -32,12 +32,11 @@ public class Main implements ModInitializer{
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
 
-
         ItemRegistry.RegisterItems();
         BlockRegistry.RegisterBlocks();
         BlockRegistry.RegisterItemBlocks();
         BiomeRegistry.RegisterBiomes();
-        BiomeRegistry.RegisterGeneration();
+        BiomeRegistry.RegisterFeatureGeneration();
 
         Register();
 
