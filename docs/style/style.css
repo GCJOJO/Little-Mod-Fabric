@@ -140,6 +140,7 @@ button:hover {
 
   transition: 0.3s all;
 }
+
 button:active {
   background-color: #5591ff;
   transition: 0.3s all;
