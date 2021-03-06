@@ -61,6 +61,27 @@ h1 {
     font-weight : 500;
 }
 
+h2 {
+    text-align : center;
+    color : white;
+    font-family : arial;
+    font-weight : normal;
+    font-weight : 500;
+}
+
+h3 {
+    text-align : center;
+    color : white;
+    font-family : arial;
+    font-weight : normal;
+    font-weight : 500;
+}
+
+img {
+    width: 480px;
+    height: 260px;
+}
+
 p {
     text-align : center;
     color : white;
@@ -71,6 +92,11 @@ p {
 
 div {
     text-align : center;
+}
+
+a {
+    color : white;
+    font-weight : normal;
 }
 
 button {
